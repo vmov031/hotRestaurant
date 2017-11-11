@@ -11,13 +11,13 @@ app.listen(PORT, function() {
 	console.log("Listening at PORT: " + PORT);
 })
 
-var tableSection
+var reservation
 
 //Grabs customer input
-var name
-var phoneNum
-var email
-var uniqueId 
+var name = "";
+var phoneNum = "";
+var email = "";
+var uniqueId = "";
 
 //Creates local "temporary" object for holding data
 var newCustomer = {
