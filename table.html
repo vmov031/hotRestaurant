@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hot Restaurant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Added Moment JS -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="jumbo" class="jumbotron">
+            <div class="row">
+                <div id="alignment" class="col-md-12">
+                    <h1>
+            <span class="glyphicon glyphicon-fire"></span>
+            Hot Restaurant</h1>
+                    <h2>Current Reservations and Waiting List</h2>
+                    <div class="text-center">
+                        <a href="tables.html"></a>
+                        </a>
+                        <a href="/reserve">
+                            <button class="btn btn-lg btn-danger" type="button">
+                                <span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button>
+                            <button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading" style="background-color: black; color: white">
+                    <h3 class="panel-title"><strong>Current Train Schedule</strong></h3>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-hover" id='time-table'>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Phone</th>
+                                <th>Email</th>
+                                <th>Unique ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+      </div>
+
+</body>
+</html>
+
+<!-- the javascript for ADDING to this table is going to be
+
+ // Add each customer's data into the table
+ customer's data (val.trim)should be stored in variables, and then we will put these variables in the table below so it appends! copying this logic from the train schedule project! -->
+
+<!--     $("#time-table > tbody").append("<tr><td>" + Name + "</td><td>" + Phone + "</td><td>" +
+        Email + "</td><td>" + UniqueID + "</td><td>" + minutesAway + "</td><tr>"); -->
+          
+<!-- }); -->
